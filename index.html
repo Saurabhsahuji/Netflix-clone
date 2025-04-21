@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">NETFLIX</a>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stranger Things</h1>
+            <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments and supernatural forces.</p>
+            <button class="cta-button" onclick="showAlert('Play')">Play</button>
+            <button class="cta-button" onclick="showAlert('More Info')">More Info</button>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="category">
+            <h2>Trending Now</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 1">
+                    <div class="overlay"><p>Action Thriller</p></div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 2">
+                    <div class="overlay"><p>Sci-Fi Adventure</p></div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 3">
+                    <div class="overlay"><p>Drama</p></div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1524985069026-ddce5533ae41?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 4">
+                    <div class="overlay"><p>Comedy</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h2>Continue Watching</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 5">
+                    <div class="overlay"><p>Mystery Series</p></div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1535632787354-7207e8f02936?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 6">
+                    <div class="overlay"><p>Fantasy Epic</p></div>
+                </div>
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1574266265290-150bdfe24612?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Movie 7">
+                    <div class="overlay"><p>Crime Drama</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
